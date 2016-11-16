@@ -22,8 +22,13 @@
         <Label x:Name="productRevisionHighLabel" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="" HorizontalAlignment="Left" Margin="298,167,0,0" VerticalAlignment="Top" Background="#FF7BC242" Height="35" Width="102" FontSize="16"/>
         <Label x:Name="productSerialHighLabel" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="" HorizontalAlignment="Left" Margin="298,127,0,0" VerticalAlignment="Top" Background="#FF63CAE6" Height="35" Width="102" Foreground="Black" FontSize="16"/>
         <Label x:Name="productSerialLowLabel" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="" HorizontalAlignment="Left" Margin="99,127,0,0" VerticalAlignment="Top" Background="#FF63CAE6" Height="35" Width="102" Foreground="Black" FontSize="16"/>
-        <TextBlock x:Name="productNotesTextBlockHigh" HorizontalAlignment="Left" Margin="265,263,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="77" Width="254" Background="#FFCDCDCD"/>
-        <TextBlock x:Name="productNotesTextBlockLow" HorizontalAlignment="Left" Margin="7,263,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="77" Width="253" Background="#FFCDCDCD"/>
+        <ScrollViewer x:Name="rightNotesBoxScrollViewer" VerticalScrollBarVisibility="Auto" Height="67" Width="254" Margin="265,263,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <TextBlock x:Name="productNotesTextBlockHigh" HorizontalAlignment="Stretch" TextWrapping="Wrap"  Background="#FFCDCDCD"/>
+        </ScrollViewer>
+        <ScrollViewer x:Name="leftNotesBoxScrollViewer" VerticalScrollBarVisibility="Auto" HorizontalAlignment="Left" Margin="7,263,0,0" VerticalAlignment="Top" Height="67" Width="253">
+            <TextBlock x:Name="productNotesTextBlockLow" HorizontalAlignment="Stretch" TextWrapping="Wrap" Background="#FFCDCDCD"/>
+        </ScrollViewer>
+      
         <Button x:Name="closeButton" Content="X" HorizontalAlignment="Left" Margin="497,0,0,0" VerticalAlignment="Top" Width="28" Click="closeButton_Click"/>
         <Button x:Name="minumizeButton" Content="_" HorizontalAlignment="Left" Margin="469,0,0,0" VerticalAlignment="Top" Width="28" Click="minumizeButton_Click"/>
         <Button x:Name="aboutButton" Content="?" HorizontalAlignment="Left" VerticalAlignment="Top" Width="28" Click="aboutButton_Click"/>

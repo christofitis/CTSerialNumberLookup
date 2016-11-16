@@ -1,3 +1,17 @@
 C:\Users\C13\Desktop\lookup util\CT Lookup Util\CTInventory\bin\Debug\CTInventory.exe.config
 C:\Users\C13\Desktop\lookup util\CT Lookup Util\CTInventory\obj\Debug\CTInventory.exe
 C:\Users\C13\Desktop\lookup util\CT Lookup Util\CTInventory\obj\Debug\CTInventory.pdb
+D:\Projects\CT\CTSerialNumberLookup\CTInventory\bin\Debug\CTInventory.exe.config
+D:\Projects\CT\CTSerialNumberLookup\CTInventory\obj\Debug\CTInventory.exe
+D:\Projects\CT\CTSerialNumberLookup\CTInventory\obj\Debug\CTInventory.pdb
+D:\Projects\CT\CTSerialNumberLookup\CTInventory\bin\Debug\CTInventory.exe
+D:\Projects\CT\CTSerialNumberLookup\CTInventory\bin\Debug\CTInventory.pdb
+D:\Projects\CT\CTSerialNumberLookup\CTInventory\obj\Debug\CTSerialNumberLookup.csprojResolveAssemblyReference.cache
+D:\Projects\CT\CTSerialNumberLookup\CTInventory\obj\Debug\MainWindow.g.cs
+D:\Projects\CT\CTSerialNumberLookup\CTInventory\obj\Debug\App.g.cs
+D:\Projects\CT\CTSerialNumberLookup\CTInventory\obj\Debug\CTInventory_MarkupCompile.cache
+D:\Projects\CT\CTSerialNumberLookup\CTInventory\obj\Debug\CTInventory_MarkupCompile.lref
+D:\Projects\CT\CTSerialNumberLookup\CTInventory\obj\Debug\MainWindow.baml
+D:\Projects\CT\CTSerialNumberLookup\CTInventory\obj\Debug\CTInventory.g.resources
+D:\Projects\CT\CTSerialNumberLookup\CTInventory\obj\Debug\CTInventory.Properties.Resources.resources
+D:\Projects\CT\CTSerialNumberLookup\CTInventory\obj\Debug\CTSerialNumberLookup.csproj.GenerateResource.Cache

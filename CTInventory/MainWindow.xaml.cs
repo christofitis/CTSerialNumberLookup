@@ -39,7 +39,9 @@ namespace CTInventory
 
         private DataTable getDataFromDatabase() //returns a dataset with all the information in a specified sheet
         {
-            string dataPath = @"p:\criticalos\serialLookup\CriticalProdDB.xlsx"; 
+            //string dataPath = @"p:\criticalos\serialLookup\CriticalProdDB.xlsx";
+            string dataPath = @"c:\temp\CriticalProdDB.xlsx";
+
             string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source= " + dataPath + ";Extended Properties='Excel 12.0;'";
             DataTable myDataTable = null;
             
@@ -186,23 +188,23 @@ namespace CTInventory
         private void resetInterface()
         {
 
-            productNotesTextBlockHigh.Margin = new Thickness(265, 263, 0, 0);
+            rightNotesBoxScrollViewer.Margin = new Thickness(265, 263, 0, 0);
             productPurchaseHighDateLabel.Margin = new Thickness(298, 207, 0, 0);
             productRevisionHighLabel.Margin = new Thickness(298, 167, 0, 0);
             productSerialHighLabel.Margin = new Thickness(298, 127, 0, 0);
-            productNotesTextBlockLow.Margin = new Thickness(7, 263, 0, 0);
+            leftNotesBoxScrollViewer.Margin = new Thickness(7, 263, 0, 0);
             productPurchaseLowDateLabel.Margin = new Thickness(99, 207, 0, 0);
             productRevisionLowLabel.Margin = new Thickness(99, 167, 0, 0);
             productSerialLowLabel.Margin = new Thickness(99, 127, 0, 0);
 
             searchingLabel.Visibility = Visibility.Hidden;
 
-            productNotesTextBlockLow.Visibility = Visibility.Visible;
+            leftNotesBoxScrollViewer.Visibility = Visibility.Visible;
             productPurchaseLowDateLabel.Visibility = Visibility.Visible;
             productRevisionLowLabel.Visibility = Visibility.Visible;
             productSerialLowLabel.Visibility = Visibility.Visible;
 
-            productNotesTextBlockHigh.Visibility = Visibility.Visible;
+            rightNotesBoxScrollViewer.Visibility = Visibility.Visible;
             productPurchaseHighDateLabel.Visibility = Visibility.Visible;
             productRevisionHighLabel.Visibility = Visibility.Visible;
             productSerialHighLabel.Visibility = Visibility.Visible;
@@ -328,21 +330,21 @@ namespace CTInventory
                 if (ifExactMatch) //is exact match is found in database from user input do this
                 {
                     messageLabel.Content = "Exact match found!";
-                    productNotesTextBlockLow.Visibility = Visibility.Hidden;
+                    leftNotesBoxScrollViewer.Visibility = Visibility.Hidden;
                     productPurchaseLowDateLabel.Visibility = Visibility.Hidden;
                     productRevisionLowLabel.Visibility = Visibility.Hidden;
                     productSerialLowLabel.Visibility = Visibility.Hidden;
 
-                    productNotesTextBlockHigh.Visibility = Visibility.Visible;
+                    rightNotesBoxScrollViewer.Visibility = Visibility.Visible;
                     productPurchaseHighDateLabel.Visibility = Visibility.Visible;
                     productRevisionHighLabel.Visibility = Visibility.Visible;
                     productSerialHighLabel.Visibility = Visibility.Visible;
 
-                    productNotesTextBlockHigh.Margin = new Thickness(136, 263, 0, 0);
+                    rightNotesBoxScrollViewer.Margin = new Thickness(136, 263, 0, 0);
                     productPurchaseHighDateLabel.Margin = new Thickness(210, 207, 0, 0);//
                     productRevisionHighLabel.Margin = new Thickness(210, 167, 0, 0);//
                     productSerialHighLabel.Margin = new Thickness(210, 127, 0, 0);//
-                    productNotesTextBlockLow.Margin = new Thickness(7, 263, 0, 0);
+                    leftNotesBoxScrollViewer.Margin = new Thickness(7, 263, 0, 0);
                     productPurchaseLowDateLabel.Margin = new Thickness(99, 207, 0, 0);
                     productRevisionLowLabel.Margin = new Thickness(99, 167, 0, 0);
                     productSerialLowLabel.Margin = new Thickness(99, 127, 0, 0);
@@ -359,21 +361,21 @@ namespace CTInventory
                else //if exact match from user input is not found, do this
                 {
                     messageLabel.Content = "Could not find exact match. That serial is between these:";
-                    productNotesTextBlockLow.Visibility = Visibility.Visible;
+                    leftNotesBoxScrollViewer.Visibility = Visibility.Visible;
                     productPurchaseLowDateLabel.Visibility = Visibility.Visible;
                     productRevisionLowLabel.Visibility = Visibility.Visible;
                     productSerialLowLabel.Visibility = Visibility.Visible;
 
-                    productNotesTextBlockHigh.Visibility = Visibility.Visible;
+                    rightNotesBoxScrollViewer.Visibility = Visibility.Visible;
                     productPurchaseHighDateLabel.Visibility = Visibility.Visible;
                     productRevisionHighLabel.Visibility = Visibility.Visible;
                     productSerialHighLabel.Visibility = Visibility.Visible;
 
-                    productNotesTextBlockHigh.Margin = new Thickness(265, 263, 0, 0); 
+                    rightNotesBoxScrollViewer.Margin = new Thickness(265, 263, 0, 0); 
                     productPurchaseHighDateLabel.Margin = new Thickness(298, 207, 0, 0);
                     productRevisionHighLabel.Margin = new Thickness(298, 167, 0, 0);
                     productSerialHighLabel.Margin = new Thickness(298, 127, 0, 0);
-                    productNotesTextBlockLow.Margin = new Thickness(7, 263, 0, 0);
+                    leftNotesBoxScrollViewer.Margin = new Thickness(7, 263, 0, 0);
                     productPurchaseLowDateLabel.Margin = new Thickness(99, 207, 0, 0);
                     productRevisionLowLabel.Margin = new Thickness(99, 167, 0, 0);
                     productSerialLowLabel.Margin = new Thickness(99, 127, 0, 0);
