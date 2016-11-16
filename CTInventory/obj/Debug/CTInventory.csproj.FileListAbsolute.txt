@@ -1,0 +1,31 @@
+c:\users\chris\documents\visual studio 2015\Projects\CTInventory\CTInventory\bin\Debug\CTInventory.exe.config
+C:\Users\chris\documents\visual studio 2015\Projects\CTInventory\CTInventory\bin\Debug\CTInventory.exe
+C:\Users\chris\documents\visual studio 2015\Projects\CTInventory\CTInventory\bin\Debug\CTInventory.pdb
+C:\Users\chris\documents\visual studio 2015\Projects\CTInventory\CTInventory\obj\Debug\CTInventory.csprojResolveAssemblyReference.cache
+C:\Users\chris\documents\visual studio 2015\Projects\CTInventory\CTInventory\obj\Debug\MainWindow.g.cs
+C:\Users\chris\documents\visual studio 2015\Projects\CTInventory\CTInventory\obj\Debug\App.g.cs
+C:\Users\chris\documents\visual studio 2015\Projects\CTInventory\CTInventory\obj\Debug\CTInventory_MarkupCompile.cache
+C:\Users\chris\documents\visual studio 2015\Projects\CTInventory\CTInventory\obj\Debug\CTInventory_MarkupCompile.lref
+C:\Users\chris\documents\visual studio 2015\Projects\CTInventory\CTInventory\obj\Debug\MainWindow.baml
+C:\Users\chris\documents\visual studio 2015\Projects\CTInventory\CTInventory\obj\Debug\CTInventory.g.resources
+C:\Users\chris\documents\visual studio 2015\Projects\CTInventory\CTInventory\obj\Debug\CTInventory.Properties.Resources.resources
+C:\Users\chris\documents\visual studio 2015\Projects\CTInventory\CTInventory\obj\Debug\CTInventory.csproj.GenerateResource.Cache
+C:\Users\chris\documents\visual studio 2015\Projects\CTInventory\CTInventory\obj\Debug\CTInventory.exe
+C:\Users\chris\documents\visual studio 2015\Projects\CTInventory\CTInventory\obj\Debug\CTInventory.pdb
+C:\Users\chris\Projects\CODE\CTInventory\CTInventory\bin\Debug\CTInventory.exe.config
+C:\Users\chris\Projects\CODE\CTInventory\CTInventory\obj\Debug\CTInventory.exe
+C:\Users\chris\Projects\CODE\CTInventory\CTInventory\obj\Debug\CTInventory.pdb
+C:\Users\chris\Projects\CODE\CTInventory\CTInventory\obj\Debug\CTInventory.csprojResolveAssemblyReference.cache
+C:\Users\chris\Projects\CODE\CTInventory\CTInventory\obj\Debug\MainWindow.g.cs
+C:\Users\chris\Projects\CODE\CTInventory\CTInventory\obj\Debug\App.g.cs
+C:\Users\chris\Projects\CODE\CTInventory\CTInventory\obj\Debug\CTInventory_MarkupCompile.cache
+C:\Users\chris\Projects\CODE\CTInventory\CTInventory\obj\Debug\CTInventory_MarkupCompile.lref
+C:\Users\chris\Projects\CODE\CTInventory\CTInventory\bin\Debug\CTInventory.exe
+C:\Users\chris\Projects\CODE\CTInventory\CTInventory\bin\Debug\CTInventory.pdb
+C:\Users\chris\Projects\CODE\CTInventory\CTInventory\obj\Debug\MainWindow.baml
+C:\Users\chris\Projects\CODE\CTInventory\CTInventory\obj\Debug\CTInventory.g.resources
+C:\Users\chris\Projects\CODE\CTInventory\CTInventory\obj\Debug\CTInventory.Properties.Resources.resources
+C:\Users\chris\Projects\CODE\CTInventory\CTInventory\obj\Debug\CTInventory.csproj.GenerateResource.Cache
+C:\Users\C13\Desktop\lookup util\CT Lookup Util\CTInventory\bin\Debug\CTInventory.exe.config
+C:\Users\C13\Desktop\lookup util\CT Lookup Util\CTInventory\obj\Debug\CTInventory.exe
+C:\Users\C13\Desktop\lookup util\CT Lookup Util\CTInventory\obj\Debug\CTInventory.pdb

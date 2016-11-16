@@ -1,0 +1,36 @@
+﻿<Window x:Class="CTInventory.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CTInventory"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" ResizeMode="CanMinimize" WindowStyle="None" MouseDown="dragWindowsEvent" Background="#FF6B7984" Foreground="#FF020101" Icon="CTLookupIcon.png">
+    <Grid Loaded="appStartFocusSet" Background="#FF6B7984">
+        <Rectangle Fill="#FF7BC242" HorizontalAlignment="Left" Height="52" Margin="384,33,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label x:Name="label10" Content="#" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="187,29,0,0" VerticalAlignment="Top" Height="33" FontWeight="Bold" FontSize="24" FontFamily="DengXian" Background="#FFFFB700"/>
+        <Label x:Name="productRevisionLowLabel" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="" HorizontalAlignment="Left" Margin="99,167,0,0" VerticalAlignment="Top" Background="#FF7BC242" Height="35" Width="102" FontSize="16"/>
+        <Label x:Name="productNameLabel" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="" HorizontalAlignment="Left" Margin="384,47,0,0" VerticalAlignment="Top" Background="{x:Null}" Height="38" Width="100" FontSize="21.333"/>
+        <Button x:Name="seachButton" Content="Search" HorizontalAlignment="Left" Margin="227,65,0,0" VerticalAlignment="Top" Width="73" Click="searchButton_Click"/>
+        <TextBox x:Name="userInputTextBox" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="33" Margin="212,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" KeyDown="enterKeyCatch" FontSize="16" FontWeight="Bold"/>
+        <Label x:Name="label1" Content="Product:" HorizontalAlignment="Left" Margin="410,33,0,0" VerticalAlignment="Top" Foreground="White" Height="27"/>
+        <Label x:Name="label2revision" Content="Revision:" HorizontalAlignment="Left" Margin="34,171,0,0" VerticalAlignment="Top" Foreground="White" RenderTransformOrigin="0.07,0.566"/>
+        <Label x:Name="productPurchaseLowDateLabel" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="" HorizontalAlignment="Left" Margin="99,207,0,0" VerticalAlignment="Top" Background="#FF63CAE6" Height="35" Width="102" Foreground="Black" FontSize="16"/>
+        <Label x:Name="label3" Content="Date:" HorizontalAlignment="Left" Margin="53,211,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.077,0.485" Foreground="White"/>
+        <Label x:Name="label9" Content="Notes:" HorizontalAlignment="Left" Margin="238,241,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label x:Name="productPurchaseHighDateLabel" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="" HorizontalAlignment="Left" Margin="298,207,0,0" VerticalAlignment="Top" Background="#FF63CAE6" Height="35" Width="102" Foreground="Black" FontSize="16"/>
+        <Label x:Name="productRevisionHighLabel" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="" HorizontalAlignment="Left" Margin="298,167,0,0" VerticalAlignment="Top" Background="#FF7BC242" Height="35" Width="102" FontSize="16"/>
+        <Label x:Name="productSerialHighLabel" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="" HorizontalAlignment="Left" Margin="298,127,0,0" VerticalAlignment="Top" Background="#FF63CAE6" Height="35" Width="102" Foreground="Black" FontSize="16"/>
+        <Label x:Name="productSerialLowLabel" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="" HorizontalAlignment="Left" Margin="99,127,0,0" VerticalAlignment="Top" Background="#FF63CAE6" Height="35" Width="102" Foreground="Black" FontSize="16"/>
+        <TextBlock x:Name="productNotesTextBlockHigh" HorizontalAlignment="Left" Margin="265,263,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="77" Width="254" Background="#FFCDCDCD"/>
+        <TextBlock x:Name="productNotesTextBlockLow" HorizontalAlignment="Left" Margin="7,263,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="77" Width="253" Background="#FFCDCDCD"/>
+        <Button x:Name="closeButton" Content="X" HorizontalAlignment="Left" Margin="497,0,0,0" VerticalAlignment="Top" Width="28" Click="closeButton_Click"/>
+        <Button x:Name="minumizeButton" Content="_" HorizontalAlignment="Left" Margin="469,0,0,0" VerticalAlignment="Top" Width="28" Click="minumizeButton_Click"/>
+        <Button x:Name="aboutButton" Content="?" HorizontalAlignment="Left" VerticalAlignment="Top" Width="28" Click="aboutButton_Click"/>
+        <Label x:Name="label" HorizontalContentAlignment="Center" Content="Serial Number Lookup" HorizontalAlignment="Left" Margin="53,-3,0,0" VerticalAlignment="Top" Width="411" FontFamily="OCR A Extended" FontSize="16" Foreground="#FF00FF0C" FontWeight="Bold"/>
+        <Rectangle Fill="#FFE6E6E6" HorizontalAlignment="Left" Height="1" Margin="99,20,0,0" VerticalAlignment="Top" Width="324"/>
+        <Label x:Name="messageLabel" Content="Label" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="7,85,0,0" VerticalAlignment="Top" Width="512" Foreground="White"/>
+        <Label x:Name="label2" Content="Serial:" HorizontalAlignment="Left" Margin="49,133,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label x:Name="searchingLabel" Content="Searching..." RenderTransformOrigin=".5,.5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="155,133,0,0" VerticalAlignment="Top" Height="80" Width="222" FontSize="26.667"/>
+    </Grid>
+</Window>

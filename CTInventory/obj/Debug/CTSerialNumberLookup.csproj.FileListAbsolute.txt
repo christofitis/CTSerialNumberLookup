@@ -1,0 +1,3 @@
+C:\Users\C13\Desktop\lookup util\CT Lookup Util\CTInventory\bin\Debug\CTInventory.exe.config
+C:\Users\C13\Desktop\lookup util\CT Lookup Util\CTInventory\obj\Debug\CTInventory.exe
+C:\Users\C13\Desktop\lookup util\CT Lookup Util\CTInventory\obj\Debug\CTInventory.pdb
